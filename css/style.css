@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header {
+	height: 100vh;
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-slider .owl-dots {
+	position: absolute;
+	top: 50%;
+	right: 1%;
+	/*display: flex;
+	justify-content: flex-end;
+	align-items: center;*/
+}
+.header-slider .owl-dots .owl-dot {
+	width: 7px;
+	height: 7px;
+	background-color: #fff;
+	margin: 10px;
+}
+.header-slider .owl-dots .owl-dot.active {
+	background-color: #e8be7b;
+	transform: scale(1.7);
+}
+.owl-item-1 {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/bg-1.png);
+	background-size: cover;
+	opacity: .9;
+}
+.owl-item-2 {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/pexels-photo-247199.jpeg);
+	background-position: center;
+	background-size: cover;
+	opacity: .9;
+}
+.owl-item-3 {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/pexels-photo-314548.jpeg);
+	background-position: center;
+	background-size: cover;
+	opacity: .9;
+}
+.owl-item-4 {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/pexels-photo-225232.jpeg);
+	background-position: center;
+	background-size: cover;
+	opacity: .9;
+}
+.owl-item-5 {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/pexels-photo-412302.jpeg);
+	background-position: center;
+	background-size: cover;
+	opacity: .9;
+}
+.header-info {
+	position: absolute;
+	top: 1%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 7vh;
+	z-index: 2;
+	border-bottom: 1px solid #fff;
+}
+.header-adress {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	color: #fff;
+}
+.header-adress .fa-map-marker {
+	margin-left: 35px;
+}
+.header-adress span {
+	margin-left: 10px;
+}
+.header-socials i {
+	font-size: 1rem;
+	color: #fff;
+	margin: 10px;
+	transition: 0.4s;
+}
+.header-socials i:hover {
+	color: #e8be7b;
+}
+.header-menu {
+	position: absolute;
+	top: 4%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 20vh;
+	z-index: 2;
+}
+.logo {
+	margin-left: 6rem;
+}
+.header-nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+.menu-link {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1rem;
+	padding: 20px;
+}
+.menu-link:hover {
