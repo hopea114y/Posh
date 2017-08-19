@@ -1,0 +1,53 @@
+@media (max-width: 991px) {
+	.header-info {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 10vh;
+	}
+	.header-adress span {
+		font-size: 0.8rem;
+	}
+	.header-menu {
+		flex-direction: row;
+		margin-top: 5%;
+	}
+	.logo {
+		margin-left: 0;
+	}
+	.header-nav {
+		display: none;
+	}
+	.m-menu-link {
+		display: block;
+	}
+	.owl-item-1 {
+		background-position: center;
+		/*background-size: auto;*/
+	}
+	.header-desc {
+		top: 40%;
+	}
+	.header-desc h1 {
+		font-size: 40px;
+		text-align: center;
+	}
+	.header-desc p {
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	.header-slider .owl-dots {
+		position: absolute;
+		top: 90%;
+		right: 30%;
+		display: flex;
+		flex-direction: row;
+	}
+	.header-btns {
+		flex-direction: column;
+	}
+	.about-btn {
+		margin-right: 0;
+		margin-bottom: 1rem;
+	}
+}
