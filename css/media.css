@@ -54,4 +54,38 @@
 		margin-right: 0;
 		margin-bottom: 1rem;
 	}
+	.services-wrap h2 {
+		margin: 0;
+	}
+	.services-wrap p {
+		font-size: 1rem;
+	}
+	.services-icons {
+		flex-direction: column;
+	}
+	.services-icon {
+		padding: 15%;
+	}
+	.services-icon:last-child {
+		margin-bottom: 8%;
+	}
+	.services-desc p {
+		text-align: center;
+	}
+	.services-blog {
+		flex-direction: column;
+	}
+	.serv-blog-desc h3 {
+		font-size: 1.8rem;
+	}
+	.serv-blog-img {
+		width: 300px;
+	}
+	.serv-blog-img::after {
+		width: 300px;
+	}
+	.serv-blog-desc {
+		width: 90%;
+		text-align: center;
+	}
 }
