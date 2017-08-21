@@ -7,6 +7,10 @@
 	}
 	.header-adress span {
 		font-size: 0.8rem;
+		margin-left: 5px;
+	}
+	.header-adress .fa-map-marker {
+		margin-left: 15px;
 	}
 	.header-menu {
 		flex-direction: row;

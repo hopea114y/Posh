@@ -240,3 +240,91 @@ header {
 	color: #fff;
 	font-size: 2rem;
 }
+.services {
+	height: 100vh;
+	min-height: 600px;
+	background-color: #fbfcf5;
+}
+.services-wrap {
+	text-align: center;
+}
+.services-wrap h2 {
+	font-size: 48px;
+	font-weight: 500;
+	color: #3a3a3a;
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+.services-wrap p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #3a3a3a;
+}
+.services-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.services-icon {
+	padding: 5%;
+}
+.services-icon span {
+	font-size: 18px;
+	color: #4d4d4d;
+	text-transform: uppercase;
+	margin-top: 25%;
+	display: flex;
+	position: relative;
+	left: -20%;
+}
+.services-blog {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 15%;
+}
+.serv-blog-img {
+	width: 630px;
+	height: 380px;
+	background-image: url(../img/wedding.png);
+	background-position: center 30%;
+	position: relative;
+}
+.serv-blog-img::after {
+	content: '';
+	width: 630px;
+	height: 380px;
+	background-color: #e8be7b;
+	position: absolute;
+	left: 2%;
+	top: 2%;
+	z-index: -1;
+}
+.serv-blog-desc {
+	width: 35%;
+}
+.serv-blog-desc h3 {
+	font-weight: 700;
+	font-size: 24px;
+	color: #3a3a3a;
+}
+.serv-blog-desc p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.serv-blog-desc a {
+	color: #d6a862;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+}
+.serv-blog-desc i {
+	margin-left: 3%;
+	color: #d6a862;
+}
