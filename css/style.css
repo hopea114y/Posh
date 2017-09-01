@@ -334,3 +334,53 @@ header {
 	margin-left: 3%;
 	color: #d6a862;
 }
+.middle {
+	background-image: url(../img/wrap.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	min-height: 600px;
+}
+.calendar {
+	position: relative;
+	top: 75%;
+	left: 30%;
+	background-color: #fff;
+	width: 50%;
+	height: 15vh;
+	display: flex;
+}
+.calendar h5 {
+	display: block;
+	font-size: 2rem;
+	font-weight: 500;
+	color: #3a3a3a;
+	margin-top: 1.5rem;
+	margin-left: 3.5rem;
+	margin-right: 2rem;
+}
+.calendar i {
+	color: #e8be7b;
+	font-size: 1.6rem;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+.calendar p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	color: #3a3a3a;
+	line-height: 1.7;
+	width: 75%;
+	margin-top: 1.5rem;
+}
+.calendar p::before {
+	content: '';
+	border-left: 1px solid #3a3a3a;
+	margin-right: 2rem;
+}
+.calendar a {
+	position: relative;
+	right: -15%;
+	top: 50%;
+}

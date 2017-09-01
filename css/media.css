@@ -54,6 +54,10 @@
 		margin-right: 0;
 		margin-bottom: 1rem;
 	}
+	.services {
+		height: auto;
+		margin-bottom: 5rem;
+	}
 	.services-wrap h2 {
 		margin: 0;
 	}
@@ -87,5 +91,29 @@
 	.serv-blog-desc {
 		width: 90%;
 		text-align: center;
+	}
+	.calendar {
+		flex-direction: column;
+		text-align: center;
+		top: 65%;
+		left: 0;
+		width: 100%;
+		height: auto;
+	}
+	.calendar i {
+		top: 23%;
+		left: 50%;
+	}
+	.calendar p {
+		width: 100%;
+		margin-top: 0;
+	}
+	.calendar p::before {
+		display: none;
+	}
+	.calendar a {
+		position: absolute;
+		top: -10%;
+		right: 80%;
 	}
 }
