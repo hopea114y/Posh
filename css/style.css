@@ -439,7 +439,7 @@ header {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 .blog {
-	height: 100vh;
+	height: 120vh;
 	min-height: 600px;
 }
 .blog-desc {
@@ -564,4 +564,52 @@ header {
 	position: absolute;
 	top: 45%;
 	right: 101%;
+}
+.contact {
+	height: 20vh;
+	margin-top: 5rem;
+	text-align: center;
+}
+.info h3 {
+	font-size: 3rem;
+	font-weight: 500;
+	margin: 0;
+}
+.info p {
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #3a3a3a;
+}
+.contacts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+.contact-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 5rem;
+}
+.contact-item-desc {
+	text-align: left;
+	margin-left: 2rem;
+}
+.contact-item-desc a {
+	color: #3a3a3a;
+	text-decoration: none;
+	font-size: 1.4rem;
+	text-transform: none;
+}
+.contact-item h6 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin: 0;
+}
+.contact-item p {
+	font-size: 1.1rem;
+	text-transform: uppercase;
 }
