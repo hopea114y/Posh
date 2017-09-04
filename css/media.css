@@ -170,6 +170,9 @@
 	.blog-button {
 		margin-top: 2rem;
 	}
+	.contact {
+		height: auto;
+	}
 	.contacts {
 		flex-direction: column;
 		margin-top: 3rem;
@@ -180,5 +183,21 @@
 	.contact-item-desc {
 		text-align: center;
 		margin: 1rem 0;
+	}
+	footer {
+		height: auto;
+	}
+	.footer-nav ul {
+		flex-direction: column;
+		padding: 0;
+	}
+	.footer-nav li {
+		margin: 1rem;
+	}
+	.footer-logo {
+		margin-top: 2rem;
+	}
+	.top {
+		justify-content: center;
 	}
 }

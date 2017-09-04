@@ -21,3 +21,7 @@ $(function() {
 		menu.toggleClass('m-menu__active');
 	})
 })
+
+$('.top').click(function () {
+	$('html, body').stop().animate({scrollTop: 0}, 'slow', 'swing');
+});

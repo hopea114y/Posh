@@ -545,7 +545,7 @@ header {
 }
 .latest-post {
 	position: relative;
-	top: -75%;
+	top: -65%;
 	left: -35%;
 	transform: rotate(270deg);
 }
@@ -566,7 +566,7 @@ header {
 	right: 101%;
 }
 .contact {
-	height: 20vh;
+	height: 35vh;
 	margin-top: 5rem;
 	text-align: center;
 }
@@ -612,4 +612,64 @@ header {
 .contact-item p {
 	font-size: 1.1rem;
 	text-transform: uppercase;
+}
+footer {
+	height: 30vh;
+	background-color: #3a3a3a;
+}
+.footer-nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.footer-nav li {
+	margin: 2rem;
+	list-style-type: none;
+}
+.footer-nav a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.footer-nav a:hover {
+	text-decoration: underline;
+}
+.footer-logo {
+	margin-top: 3rem;
+	text-align: center;
+}
+.socials ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+}
+.socials li {
+	margin: 0.3rem;
+	color: #fff;
+}
+.socials a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	color: #fff;
+	text-decoration: none;
+}
+.socials a:hover {
+	text-decoration: underline;
+}
+.top {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	color: #fff;
+	cursor: pointer;
+}
+.top i {
+	margin-left: 1rem;
 }
