@@ -170,4 +170,15 @@
 	.blog-button {
 		margin-top: 2rem;
 	}
+	.contacts {
+		flex-direction: column;
+		margin-top: 3rem;
+	}
+	.contact-item {
+		flex-direction: column;
+	}
+	.contact-item-desc {
+		text-align: center;
+		margin: 1rem 0;
+	}
 }
