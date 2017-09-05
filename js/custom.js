@@ -5,6 +5,10 @@ $(window).load(function() {
 	
 });
 
+$("[data-fancybox]").fancybox({
+		// Options will go here
+});
+
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel();
 });
