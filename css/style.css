@@ -16,7 +16,6 @@
 	width: 100%;
 	z-index: 9999; 
 }
-
 .loader-inner {
   background-image: url("../img/svg_stopwatch_dribbble_teaser.gif");
   background-size: cover;
@@ -43,9 +42,6 @@ header {
 	position: absolute;
 	top: 50%;
 	right: 1%;
-	/*display: flex;
-	justify-content: flex-end;
-	align-items: center;*/
 }
 .header-slider .owl-dots .owl-dot {
 	width: 7px;
@@ -665,7 +661,8 @@ footer {
 }
 .footer-logo {
 	margin-top: 3rem;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 .socials ul {
 	display: flex;
@@ -698,4 +695,12 @@ footer {
 }
 .top i {
 	margin-left: 1rem;
+}
+.copy {
+	display: flex;
+	justify-content: center;
+}
+.copy a {
+	color: #fff;
+	text-decoration: none;
 }

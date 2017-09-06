@@ -200,4 +200,8 @@
 	.top {
 		justify-content: center;
 	}
+	.loader-inner {
+		left: 35%;
+    top: 40%;
+	}
 }
